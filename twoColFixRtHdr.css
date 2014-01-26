@@ -1,0 +1,124 @@
+@charset "utf-8";
+body  {
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	background-color: #cbe3f3;
+	list-style-type: square;
+}
+.twoColFixRtHdr #container {
+	width: 855px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	background: #FFFFFF;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+} 
+.twoColFixRtHdr #header {
+	background-repeat: no-repeat;
+	background-position: left center;
+	height: 142px;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 10;
+	padding-left: 0;
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #82a338;
+	font-family: "Gill Sans MT", Verdana, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #82A338;
+	text-decoration: none;
+} 
+.twoColFixRtHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0;
+	background-repeat: no-repeat;
+	visibility: visible;
+	overflow: visible;
+}
+.twoColFixRtHdr #sidebar1 {
+	float: right; /* since this element is floated, a width must be given */
+	width: 229px;
+	background-color: #cbe3f3;
+	padding-top: 15px;
+	padding-right: 5px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000;
+}
+.twoColFixRtHdr #mainContent {
+	margin-top: 0px;
+	margin-right: 250px;
+	margin-bottom: 0;
+	margin-left: 0;
+	font-family: Verdana, Geneva, sans-serif;
+	padding: 0px;
+} 
+.twoColFixRtHdr #footer {
+	padding: 0; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#82a338;
+} 
+.twoColFixRtHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+#sidebarContent {
+	float: left;
+	width: 120px;
+	border-right-width: thin;
+	border-right-style: dotted;
+	border-right-color: #000;
+	font-size: 10%;
+}
+#centerContent {
+	margin-left: 135px;
+}
+#interiorContent {
+	padding-top: 0px;
+	padding-right: 15px;
+	padding-bottom: 60px;
+	padding-left: 15px;
+}
+
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+.h4_link:visited {
+	font-family: "Gill Sans MT", Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #636;
+}
+.h4_link:hover {
+	font-family: "Gill Sans MT", Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #f00;
+}
