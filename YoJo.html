@@ -50,7 +50,20 @@
   <div id="header"> <a href="index.html"><img src="images/Header.png" width="800" height="95" /></a>
 
     <div class="searchbox" style=" min-height: 80px;"><div id="cse" style="width: 100%;">Loading</div>
-<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script>
+  (function() {
+    var cx = '010664110245695437281:vwfgngmmz-q';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+
+<!--<script src="http://www.google.com/jsapi" type="text/javascript"></script>
 <script type="text/javascript"> 
   google.load('search', '1', {language : 'en', style : google.loader.themes.MINIMALIST});
   google.setOnLoadCallback(function() {
@@ -173,7 +186,7 @@
   .gs-promotion .gs-visibleUrl-short {
     color: #00CC00;
   }
-</style>
+</style>-->
 </div>
     <ul id="MenuBar1" class="MenuBarHorizontal">
         <li><a href="index.html">Home</a>      </li>
