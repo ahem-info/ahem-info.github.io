@@ -1,0 +1,82 @@
+<div id="wrapper"> 
+
+<h2>Site Links</h2>
+	<ul>
+	  <li><a href="faq.html">FAQ</a></li>
+	  <li><a href="#">Massachusetts Homeschool Law at a Glance</a></li>
+	  <li><a href="#">Reporting</a></li>
+	  <li><a href="#">Be Your Own Best Advocate</a></li>
+	  <li><a href="#">One-on-One Support</a></li>
+	  <li><a href="#">Networking</a></li>
+	  <li><a href="#">Recommended Books</a></li>
+	  <li><a href="#">Outreach</a></li>
+	</ul>
+
+  <aside>
+    <h2>News</h2>
+    <p><a href="#">Homeschool Game Day </a><br>
+      January 24, 2019</p>
+    <p><a href="#">Unschooling as a Feminist Act </a><br>
+      January 3, 2019</p>
+    <p><a href="#">Supporting Each Other </a><br>
+      December 27, 2018</p>
+    <p><a href="#">The Year in Review </a><br>
+      December 20, 2018</p>
+    <p><a href="#">Student Government Day 2019 </a><br>
+      December 13, 2018</p>
+    <p><a href="#">AHEM Earns Guidestar Gold Seal </a><br>
+      November 27, 2018</p>
+    <p><a href="#">Coffee and Conversation </a><br>
+      November 20, 2018</p>
+  </aside>
+
+<footer>
+  <ul>
+    <li>
+      <h2><a href="https://www.surveymonkey.com/r/?sm=lwP373yb5gBQFElJgDNE7A_3d_3d">TAKE OUR SURVEY</a></h2>
+    </li>
+    <li>
+      <h2><a href="https://ahem.us5.list-manage.com/subscribe?u=87e3c4b615fc2c965539c63f5&amp;id=1614ef69e4">SUBSCRIBE TO OUR EMAILS</a></h2>
+    </li>
+    <li>
+      <h2><a href="#">SUPPORT AHEM</a></h2>
+    </li>
+  </ul>
+  <p>The information on this website does not constitute legal advice; it is provided for informational purposes only. <br>
+    © Advocates for Home Education in Massachusetts, Inc. 2003-2019. All rights reserved.</p>
+</footer>
+</div>
+
+
+  <h2><a href="https://www.surveymonkey.com/r/?sm=lwP373yb5gBQFElJgDNE7A_3d_3d">TAKE OUR SURVEY</a></h2>
+    </li>
+    <li>
+      <h2><a href="https://ahem.us5.list-manage.com/subscribe?u=87e3c4b615fc2c965539c63f5&amp;id=1614ef69e4">SUBSCRIBE TO OUR EMAILS</a></h2>
+    </li>
+    <li>
+      <h2><a href="#">SUPPORT AHEM</a></h2>
+    </li>
+  </ul>
+
+a.button
+
+.button {
+	border: 2px #FFFFFF solis;
+	padding: 8px 30px;
+	border-radius: 30px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1000px;
+    background-color: white;
+}
+
+.style-nav ul li a {
+	text-decoration: none;
+	color: #598e97;
+	display: block;
+	padding: 8px;
